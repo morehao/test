@@ -1,0 +1,21 @@
+{
+  "name": "express-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "standard": "standard"
+  },
+  "author": "",
+  "license": "ISC",
+  "pre-commit": [
+    "standard"
+  ],
+  "devDependencies": {
+    "express": "^4.16.3",
+    "pre-commit": "^1.2.2",
+    "standard": "^12.0.1"
+  }
+}
